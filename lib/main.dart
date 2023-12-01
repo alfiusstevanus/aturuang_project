@@ -2,9 +2,8 @@ import 'package:aturuang_project/Welcoming%20pages/Splashscreen.dart';
 import 'package:flutter/material.dart';
 import '../Welcoming pages/Splashscreen.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(const MyApp());
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

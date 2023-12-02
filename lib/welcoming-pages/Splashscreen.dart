@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../configuration/theme_config.dart';
-import '../Welcoming pages/Welcome_pages.dart';
+import '../welcoming-pages/Welcome_pages.dart';
 
 class SplashScreen extends StatefulWidget {
   @override

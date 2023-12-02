@@ -35,14 +35,18 @@ class _HomePageState extends State<WelcomingPage> {
         RoundedButton(
           colour: btncolor,
           title: "Sign In",
-          onPressed: () {},
+          onPressed: () {
+            Navigator.pushNamed(context, 'login');
+          },
           width: 273,
           height: 57,
         ),
         RoundedButton(
           colour: btncolor,
           title: "Sign Up",
-          onPressed: () {},
+          onPressed: () {
+            Navigator.pushNamed(context, 'register');
+          },
           width: 273,
           height: 57,
         )
